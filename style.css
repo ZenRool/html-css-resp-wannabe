@@ -71,3 +71,44 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+/* Navigabile per meno di 420 MOBILE*/
+@media screen and (max-width: 419px) {
+  /* RESET  */
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  .row {  
+    width: 99.5%;
+    margin: 0 auto;
+  }
+  .container, #why {
+    background-color: #f2f2ce;
+  }
+  img {
+    height: 100px;
+    width: auto;
+    text-align: center;
+  }
+  html {
+    font-size: 63%;
+    
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right,   
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right  {
+    width: 100%;
+    margin: 1rem auto;
+    
+  }
+  #why .row>.first, #why .row>.second, #why .row>.third {
+    margin-top: 20px;
+
+  }
+}
